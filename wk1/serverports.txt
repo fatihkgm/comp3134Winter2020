@@ -2,11 +2,7 @@
 1)-What is the definition of server port?
 
 A port number is a way to identify a specific process to which an Internet or other
-network message is to be forwarded when it arrives at a server. For the Transmission
-Control Protocol and the User Datagram Protocol, a port number is a 16-bit integer
-that is put in the header appended to a message unit. This port number is passed
-logically between client and server transport layers and physically between the
-transport layer and the Internet Protocol layer and forwarded on.
+network message is to be forwarded when it arrives at a server. 
 
 2)What is server port range?
 

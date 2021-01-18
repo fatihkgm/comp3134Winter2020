@@ -1,0 +1,100 @@
+1) georgebrowncollege.ca
+whois information
+  cache expires in 1 days, 0 hours, 0 minutes and 0 seconds
+Registrar Info
+NameWebnames.ca Inc.
+Whois Serverwhois.ca.fury.ca
+Referral URLwww.webnames.ca
+StatusclientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Important Dates
+Expires On2021-12-01
+Registered On2000-11-09
+Updated On2020-11-05
+Name Servers
+ns1.d-zone.ca162.219.54.2
+ns1.georgebrown.ca198.96.86.35
+ns2.d-zone.ca162.219.55.2
+ns2.georgebrown.ca198.96.87.135
+
+
+2) Registrar Info
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2023-01-19
+Registered On1995-01-18
+Updated On2020-07-30
+Name Servers
+ns1.yahoo.com68.180.131.16
+ns2.yahoo.com68.142.255.16
+ns3.yahoo.com27.123.42.42
+ns4.yahoo.com98.138.11.157
+ns5.yahoo.com202.165.97.53
+
+
+3)Registrar Info
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2028-09-13
+Registered On1997-09-15
+Updated On2019-09-09
+Name Servers
+ns1.google.com216.239.32.10
+ns2.google.com216.239.34.10
+ns3.google.com216.239.36.10
+ns4.google.com216.239.38.10
+
+4)Registrar Info
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2021-03-28
+Registered On1996-03-27
+Updated On2020-05-20
+Name Servers
+ns1-205.azure-dns.com40.90.4.205
+ns2-205.azure-dns.net64.4.48.205
+ns3-205.azure-dns.org13.107.24.205
+ns4-205.azure-dns.info13.107.160.205
+
+5)Registrar Info
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2021-11-09
+Registered On1997-11-11
+Updated On2019-10-09
+Name Servers
+ns-1372.awsdns-43.org205.251.197.92
+ns-1984.awsdns-56.co.uk205.251.199.192
+ns-659.awsdns-18.net205.251.194.147
+ns-81.awsdns-10.com205.251.192.81

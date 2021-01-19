@@ -1,0 +1,24 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
+
+oot@159.203.16.249's password:
+You are required to change your password immediately (administrator enforced)
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-62-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Jan 18 20:37:14 UTC 2021
+
+  System load:  0.08               Users logged in:       0
+  Usage of /:   11.8% of 24.06GB   IPv4 address for eth0: 159.203.16.249
+  Memory usage: 52%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    112
+
+94 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+
+********************************************************************************

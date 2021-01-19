@@ -1,0 +1,179 @@
+(base) test@iMac ~ % ssh root@159.203.16.249
+The authenticity of host '159.203.16.249 (159.203.16.249)' can't be established.
+ECDSA key fingerprint is SHA256:n3vkIUSRFa4v0t35+Ixw2t4yqdH4PAgVTa29REeCANk.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '159.203.16.249' (ECDSA) to the list of known hosts.
+root@159.203.16.249's password:
+Permission denied, please try again.
+root@159.203.16.249's password:
+Permission denied, please try again.
+root@159.203.16.249's password:
+
+(base) test@iMac ~ % ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/test/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/test/.ssh/id_rsa.
+Your public key has been saved in /Users/test/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jOhD4VSDYE5CbNrJv3hI9Uyt9I0am4EfIIPasXJZyBI test@iMac.local
+The key's randomart image is:
++---[RSA 3072]----+
+|+.+. .o          |
+|EB  .. .         |
+|o*.oo  .         |
+|+ Xo+ooo.        |
+|.o X+B.oSo       |
+|o *oo B o .      |
+| + ooo B         |
+|  o o.=          |
+|   .             |
++----[SHA256]-----+
+(base) test@iMac ~ % cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD4ZX13uVPgySLdlf+rnzyKeIbLJQDfDJ6fToxcyz1REDu7GEls7aPmVbW6BnJ0ID1fcDSCjYTVdv0HS3uLIm1hM48OcbRVSe69kWd/63bFBp3K7Mht6WiWLSlgLJDKnz9cuAbfJpTbSAzsd94aXfqCPyTZSPaLlQjGpM4vps4vBHZ+qL7MhBfcLg4vjrDssCHMoQ7j24gFEowllFLBQwNFgsk9AxfDhjSKfztdjZpBnVGLR4Im0LYsqvGOTOiViLrXEUVYtO+TuJXRXRTEM7JqXzCW1awPo3iQT6vpqWkwVhm61PRSl3aErugR31vNMYCojscb/r5llorAmWisk6nuoK1rwVtCrZXkd8t7ieBVuMQzP/nU2OmA9onUIsQwaxYE53DMhqYDrznbSRICLOONhrZ7qy66oz/9GpEHKKs4XOPHWOPbAie/BK7lZ8lLWzIZrFaeMZ7kkTWAoBqbufBKrBy8hWgu0FA2fmLfevxc7iiypeyWmh+jCMnUXs5cn2k= test@iMac.local
+(base) test@iMac ~ % ssh root@159.203.16.249
+root@159.203.16.249's password:
+Permission denied, please try again.
+root@159.203.16.249's password:
+Permission denied, please try again.
+root@159.203.16.249's password:
+root@159.203.16.249: Permission denied (publickey,password).
+(base) test@iMac ~ % ssh root@159.203.16.249
+root@159.203.16.249's password:
+You are required to change your password immediately (administrator enforced)
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-62-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Jan 18 20:37:14 UTC 2021
+
+  System load:  0.08               Users logged in:       0
+  Usage of /:   11.8% of 24.06GB   IPv4 address for eth0: 159.203.16.249
+  Memory usage: 52%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    112
+
+94 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://159.203.16.249
+
+On the server:
+ * The default web root is located at /var/www/html
+ * The MySQL root password is saved in /root/.digitalocean_password
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Changing password for root.
+Current password:
+Connection to 159.203.16.249 closed.
+(base) test@iMac ~ % ssh root@159.203.16.249
+root@159.203.16.249's password:
+You are required to change your password immediately (administrator enforced)
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-62-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Jan 18 20:37:57 UTC 2021
+
+  System load:  0.04               Users logged in:       0
+  Usage of /:   11.8% of 24.06GB   IPv4 address for eth0: 159.203.16.249
+  Memory usage: 53%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    113
+
+94 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://159.203.16.249
+
+On the server:
+ * The default web root is located at /var/www/html
+ * The MySQL root password is saved in /root/.digitalocean_password
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Mon Jan 18 20:37:15 2021 from 99.242.65.117
+Changing password for root.
+Current password:
+New password:
+Retype new password:
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get update
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Get:2 http://mirrors.digitalocean.com/ubuntu focal InRelease [265 kB]
+Get:3 http://mirrors.digitalocean.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://mirrors.digitalocean.com/ubuntu focal-backports InRelease [101 kB]
+Get:5 http://mirrors.digitalocean.com/ubuntu focal-updates/main amd64 Packages [760 kB]
+Get:6 http://mirrors.digitalocean.com/ubuntu focal-updates/main Translation-en [187 kB]
+Get:7 http://mirrors.digitalocean.com/ubuntu focal-updates/main amd64 c-n-f Metadata [11.5 kB]
+Get:8 http://mirrors.digitalocean.com/ubuntu focal-updates/universe amd64 Packages [726 kB]
+Get:9 http://mirrors.digitalocean.com/ubuntu focal-updates/universe Translation-en [147 kB]
+Get:10 http://mirrors.digitalocean.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [15.4 kB]
+Get:11 http://mirrors.digitalocean.com/ubuntu focal-updates/multiverse amd64 Packages [15.5 kB]
+Get:12 http://mirrors.digitalocean.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [528 B]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [454 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [101 kB]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [5748 B]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [526 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [71.1 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [9540 B]
+Fetched 3617 kB in 2s (2233 kB/s)
+Reading package lists... Done
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 98.137.11.163
+PING 98.137.11.163 (98.137.11.163) 56(84) bytes of data.
+64 bytes from 98.137.11.163: icmp_seq=1 ttl=53 time=63.4 ms
+64 bytes from 98.137.11.163: icmp_seq=2 ttl=53 time=62.6 ms
+64 bytes from 98.137.11.163: icmp_seq=3 ttl=53 time=62.7 ms
+64 bytes from 98.137.11.163: icmp_seq=4 ttl=53 time=63.9 ms
+64 bytes from 98.137.11.163: icmp_seq=5 ttl=53 time=62.6 ms
+64 bytes from 98.137.11.163: icmp_seq=6 ttl=53 time=62.6 ms
+64 bytes from 98.137.11.163: icmp_seq=7 ttl=53 time=62.6 ms
+64 bytes from 98.137.11.163: icmp_seq=8 ttl=53 time=62.6 ms
+64 bytes from 98.137.11.163: icmp_seq=9 ttl=53 time=63.1 ms
+64 bytes from 98.137.11.163: icmp_seq=10 ttl=53 time=63.1 ms
+64 bytes from 98.137.11.163: icmp_seq=11 ttl=53 time=63.1 ms
+64 bytes from 98.137.11.163: icmp_seq=12 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=13 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=14 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=15 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=16 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=17 ttl=53 time=63.3 ms
+64 bytes from 98.137.11.163: icmp_seq=18 ttl=53 time=63.2 ms
+^C
+--- 98.137.11.163 ping statistics ---
+18 packets transmitted, 18 received, 0% packet loss, time 17027ms
+rtt min/avg/max/mdev = 62.550/63.053/63.892/0.352 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

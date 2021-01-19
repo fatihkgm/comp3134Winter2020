@@ -58,3 +58,9 @@ PORT    STATE SERVICE
 
 Nmap done: 1 IP address (1 host up) scanned in 17.72 seconds
 root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 204.79.197.212
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 02:49 UTC
+Error #487: Your port specifications are illegal.  Example of proper form: "-100,200-1024,T:3000-4000,U:60000-"
+QUITTING!
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

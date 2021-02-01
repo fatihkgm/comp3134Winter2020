@@ -1,0 +1,26 @@
+19:46:44.896076 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6098116:6098352, ack 3061, win 501, options [nop,nop,TS val 3045229329 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896182 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6098352:6098588, ack 3061, win 501, options [nop,nop,TS val 3045229329 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896280 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6098588:6098824, ack 3061, win 501, options [nop,nop,TS val 3045229329 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896374 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6098824:6099060, ack 3061, win 501, options [nop,nop,TS val 3045229329 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896485 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6099060:6099296, ack 3061, win 501, options [nop,nop,TS val 3045229329 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896586 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6099296:6099532, ack 3061, win 501, options [nop,nop,TS val 3045229330 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896690 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6099532:6099768, ack 3061, win 501, options [nop,nop,TS val 3045229330 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896795 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6099768:6100004, ack 3061, win 501, options [nop,nop,TS val 3045229330 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896897 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6100004:6100240, ack 3061, win 501, options [nop,nop,TS val 3045229330 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.896999 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6100240:6100476, ack 3061, win 501, options [nop,nop,TS val 3045229330 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.897111 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6100476:6100712, ack 3061, win 501, options [nop,nop,TS val 3045229330 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.897209 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [P.], seq 6100712:6100948, ack 3061, win 501, options [nop,nop,TS val 3045229330 ecr 379525807,nop,nop,sack 1 {3097:3673}], length 236
+19:46:44.897236 IP 99.242.65.117.52342 > 159.203.16.249.22: Flags [.], ack 6062480, win 65535, options [nop,nop,TS val 379526103 ecr 3045229313], length 0
+19:46:44.897236 IP 99.242.65.117.52342 > 159.203.16.249.22: Flags [.], ack 6064368, win 65535, options [nop,nop,TS val 379526104 ecr 3045229315], length 0
+19:46:44.897236 IP 99.242.65.117.52342 > 159.203.16.249.22: Flags [.], ack 6070504, win 65535, options [nop,nop,TS val 379526105 ecr 3045229317], length 0
+19:46:44.897236 IP 99.242.65.117.52342 > 159.203.16.249.22: Flags [.], ack 6070740, win 65535, options [nop,nop,TS val 379526106 ecr 3045229318], length 0
+19:46:44.897237 IP 99.242.65.117.52342 > 159.203.16.249.22: Flags [.], ack 6075224, win 65535, options [nop,nop,TS val 379526106 ecr 3045229318], length 0
+19:46:44.897237 IP 99.242.65.117.52342 > 159.203.16.249.22: Flags [.], ack 6075696, win 65535, options [nop,nop,TS val 379526107 ecr 3045229319], length 0
+19:46:44.897237 IP 99.242.65.117.52342 > 159.203.16.249.22: Flags [P.], seq 3061:3673, ack 6075696, win 65535, options [nop,nop,TS val 379526107 ecr 3045229319], length 612
+19:46:44.897237 IP 99.242.65.117.52342 > 159.203.16.249.22: Flags [.], ack 6079708, win 65535, options [nop,nop,TS val 379526108 ecr 3045229320], length 0
+19:46:44.897343 IP 159.203.16.249.22 > 99.242.65.117.52342: Flags [.], ack 3673, win 497, options [nop,nop,TS val 3045229330 ecr 379526107,nop,nop,sack 1 {3097:3673}], length 0
+^C
+27430 packets captured
+27431 packets received by filter
+0 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 

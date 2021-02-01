@@ -1,0 +1,12 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+19:50:32.668387 IP 159.203.16.249.ssh > cpe688f2e0fdbb3-cm688f2e0fdbb0.cpe.net.cable.rogers.com.52342: Flags [P.], seq 4078802780:4078802888, ack 1669333066, win 501, options [nop,nop,TS val 3045457101 ecr 379752287], length 108
+19:50:32.668497 IP 159.203.16.249.ssh > cpe688f2e0fdbb3-cm688f2e0fdbb0.cpe.net.cable.rogers.com.52342: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 3045457102 ecr 379752287], length 36
+19:50:32.668598 IP 159.203.16.249.ssh > cpe688f2e0fdbb3-cm688f2e0fdbb0.cpe.net.cable.rogers.com.52342: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 3045457102 ecr 379752287], length 108
+19:50:32.668679 IP 159.203.16.249.ssh > cpe688f2e0fdbb3-cm688f2e0fdbb0.cpe.net.cable.rogers.com.52342: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 3045457102 ecr 379752287], length 36
+19:50:32.669412 IP 159.203.16.249.40454 > dns.google.domain: 37018+ PTR? 117.65.242.99.in-addr.arpa. (44)
+5 packets captured
+19 packets received by filter
+0 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 

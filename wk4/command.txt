@@ -1,0 +1,24 @@
+shh root@Ip_ADDRES
+
+
+//ALLOW US TO ACCESS TO SEE STATUS OF ..
+ufw status
+
+//TO ALLOW 
+ufw allow 4444 
+
+and we can see status ufw status
+
+//delete
+ufw delete  # by number 
+
+UFW allow from IP_ADDRESS
+
+
+tcp => port open and application ready to receeive it
+
+tcpdump -ni eth0
+only capture
+tcpdump -ni eth0 -c 100
+
+tcpdump -ni eth0 -c 100 port 5551

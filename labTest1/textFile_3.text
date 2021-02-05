@@ -1,0 +1,13 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping  whois.wildwestdomains.com
+PING wildwest.whois.prod.godaddyrdap.com (3.217.248.95) 56(84) bytes of data.
+
+
+^C
+--- wildwest.whois.prod.godaddyrdap.com ping statistics ---
+350 packets transmitted, 0 received, 100% packet loss, time 357363ms
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping  whois.wildwestdomains.com -w 5
+PING wildwest.whois.prod.godaddyrdap.com (54.83.191.87) 56(84) bytes of data.
+
+--- wildwest.whois.prod.godaddyrdap.com ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4094ms

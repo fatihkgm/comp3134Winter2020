@@ -1,0 +1,29 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 98.137.11.163
+PING 98.137.11.163 (98.137.11.163) 56(84) bytes of data.
+64 bytes from 98.137.11.163: icmp_seq=1 ttl=53 time=64.1 ms
+64 bytes from 98.137.11.163: icmp_seq=2 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=3 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=4 ttl=53 time=63.1 ms
+64 bytes from 98.137.11.163: icmp_seq=5 ttl=53 time=63.1 ms
+64 bytes from 98.137.11.163: icmp_seq=6 ttl=53 time=63.1 ms
+64 bytes from 98.137.11.163: icmp_seq=7 ttl=53 time=63.0 ms
+64 bytes from 98.137.11.163: icmp_seq=8 ttl=53 time=63.1 ms
+64 bytes from 98.137.11.163: icmp_seq=9 ttl=53 time=63.5 ms
+64 bytes from 98.137.11.163: icmp_seq=10 ttl=53 time=63.0 ms
+64 bytes from 98.137.11.163: icmp_seq=11 ttl=53 time=63.0 ms
+64 bytes from 98.137.11.163: icmp_seq=12 ttl=53 time=63.0 ms
+64 bytes from 98.137.11.163: icmp_seq=13 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=14 ttl=53 time=63.2 ms
+64 bytes from 98.137.11.163: icmp_seq=15 ttl=53 time=63.0 ms
+
+
+^C
+--- 98.137.11.163 ping statistics ---
+118 packets transmitted, 118 received, 0% packet loss, time 117145ms
+rtt min/avg/max/mdev = 62.943/63.186/65.139/0.225 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 
+
+the soruce code are 
+ping 98.137.11.163
+the droplet 
+

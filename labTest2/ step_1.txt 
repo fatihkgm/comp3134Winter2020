@@ -16,6 +16,17 @@ PING 98.137.11.163 (98.137.11.163) 56(84) bytes of data.
 64 bytes from 98.137.11.163: icmp_seq=14 ttl=53 time=63.2 ms
 64 bytes from 98.137.11.163: icmp_seq=15 ttl=53 time=63.0 ms
 
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=121 time=1.85 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=121 time=0.842 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=121 time=0.845 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=121 time=0.843 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=121 time=0.874 ms
+64 bytes from 8.8.8.8: icmp_seq=6 ttl=121 time=0.923 ms
+64 bytes from 8.8.8.8: icmp_seq=7 ttl=121 time=0.889 ms
+64 bytes from 8.8.8.8: icmp_seq=8 ttl=121 time=0.902 ms
+^C
+
 
 ^C
 --- 98.137.11.163 ping statistics ---
@@ -27,3 +38,49 @@ the soruce code are
 ping 98.137.11.163
 the droplet 
 
+Source Host
+Frame 166021: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface en1, id 0
+Ethernet II, Src: Apple_c4:46:98 (a8:be:27:c4:46:98), Dst: 00:00:00_00:00:02 (00:00:00:00:00:02)
+    Destination: 00:00:00_00:00:02 (00:00:00:00:00:02)
+        Address: 00:00:00_00:00:02 (00:00:00:00:00:02)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Apple_c4:46:98 (a8:be:27:c4:46:98)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.73, Dst: 138.128.143.38
+User Datagram Protocol, Src Port: 52525, Dst Port: 50003
+Data (61 bytes)
+
+
+tcpdump -c 3 -i eth0
+
+
+--- 98.137.11.163 ping statistics ---
+118 packets transmitted, 118 received, 0% packet loss, time 117145ms
+rtt min/avg/max/mdev = 62.943/63.186/65.139/0.225 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i en0 -w trace.pcap
+tcpdump: en0: No such device exists
+(SIOCGIFHWADDR: No such device)
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# exit
+logout
+Connection to 159.203.16.249 closed.
+(base) test@iMac ~ % traceroute www.yahoo.com
+traceroute: Warning: www.yahoo.com has multiple addresses; using 74.6.143.26
+traceroute to new-fp-shed.wg1.b.yahoo.com (74.6.143.26), 64 hops max, 52 byte packets
+ 1  192.168.0.1 (192.168.0.1)  2.666 ms  2.417 ms  2.887 ms
+ 2  99.242.64.1 (99.242.64.1)  16.673 ms  21.066 ms  16.367 ms
+ 3  8078-dgw02.lndn.rmgt.net.rogers.com (66.185.89.81)  15.399 ms  17.841 ms  17.322 ms
+ 4  209.148.236.13 (209.148.236.13)  22.206 ms
+    0-4-0-8-cgw01.wlfdle.rmgt.net.rogers.com (209.148.230.173)  21.616 ms
+    209.148.236.9 (209.148.236.9)  23.911 ms
+ 5  209.148.233.102 (209.148.233.102)  36.693 ms  38.351 ms  31.658 ms
+ 6  * * *
+ 7  ae-4.pat1.nyc.yahoo.com (209.191.64.1)  43.173 ms  42.329 ms  40.879 ms
+ 8  ae-0.pat2.bfw.yahoo.com (216.115.111.30)  48.398 ms
+    ae-1.pat1.bfw.yahoo.com (216.115.111.28)  46.450 ms  47.026 ms
+ 9  et-18-1-0.msr1.bf1.yahoo.com (74.6.227.47)  51.723 ms
+    et-1-0-0.msr1.bf1.yahoo.com (74.6.227.43)  52.474 ms
+    et-0-1-1.msr1.bf2.yahoo.com (74.6.227.67)  51.329 ms
+10  et-19-0-0.clr2-a-gdc.bf2.yahoo.com (74.6.122.45)  49.976 ms  56.568 ms
+    et-1-1-0.clr2-a-gdc.bf2.yahoo.com (74.6.122.57)  49.569 ms
+11  lo0.fab3-1-gdc.bf2.yahoo.com (74.6.123.242)  55.899 ms^C

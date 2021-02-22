@@ -24,3 +24,18 @@
 27431 packets received by filter
 0 packets dropped by kernel
 root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 
+
+The Source 
+Frame 166021: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface en1, id 0
+Ethernet II, Src: Apple_c4:46:98 (a8:be:27:c4:46:98), Dst: 00:00:00_00:00:02 (00:00:00:00:00:02)
+    Destination: 00:00:00_00:00:02 (00:00:00:00:00:02)
+        Address: 00:00:00_00:00:02 (00:00:00:00:00:02)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Apple_c4:46:98 (a8:be:27:c4:46:98)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.73, Dst: 138.128.143.38
+User Datagram Protocol, Src Port: 52525, Dst Port: 50003
+Data (61 bytes)
+
+

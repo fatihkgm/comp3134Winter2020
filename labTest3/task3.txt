@@ -1,0 +1,28 @@
+nc: connect to localhost port 3984 (tcp) failed: Connection refused
+nc: connect to localhost port 3985 (tcp) failed: Connection refused
+nc: connect to localhost port 3986 (tcp) failed: Connection refused
+nc: connect to localhost port 3987 (tcp) failed: Connection refused
+nc: connect to localhost port 3988 (tcp) failed: Connection refused
+nc: connect to localhost port 3989 (tcp) failed: Connection refused
+nc: connect to localhost port 3990 (tcp) failed: Connection refused
+nc: connect to localhost port 3991 (tcp) failed: Connection refused
+nc: connect to localhost port 3992 (tcp) failed: Connection refused
+nc: connect to localhost port 3993 (tcp) failed: Connection refused
+nc: connect to localhost port 3994 (tcp) failed: Connection refused
+nc: connect to localhost port 3995 (tcp) failed: Connection refused
+nc: connect to localhost port 3996 (tcp) failed: Connection refused
+nc: connect to localhost port 3997 (tcp) failed: Connection refused
+nc: connect to localhost port 3998 (tcp) failed: Connection refused
+nc: connect to localhost port 3999 (tcp) failed: Connection refused
+nc: connect to localhost port 4000 (tcp) failed: Connection refused
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -sn -PS 192.1.1/24 
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-03-22 19:06 UTC
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -sn -PS80,3000-4000 192.185.48.185
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-03-22 19:07 UTC
+Nmap scan report for fleetbodyworx.com (192.185.48.185)
+Host is up (0.044s latency).
+Nmap done: 1 IP address (1 host up) scanned in 11.08 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# sudo hping3 -i u1 -S -p 3100 -c 1000 178.128.237.247
+sudo: hping3: command not found
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 

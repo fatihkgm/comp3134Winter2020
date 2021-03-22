@@ -1,0 +1,320 @@
+i HAVE USED TWO WEBSITE MINE AND WHEATHER API
+
+
+base) test@iMac ~ % $ curl -m 2 http://api.openweathermap.org/data/2.5/weather
+                    ?q=London,uk&appid=bd82977b86bf27fb59a04b61b657fb6f
+
+base) test@iMac ~ % $ curl -m 2 http://www.thekgmweb.com/?sa
+                    ?q=London,uk&appid=bd82977b86bf27fb59a04b61b657fb6f
+
+
+
+
+
+
+
+
+
+
+base) test@iMac ~ % curl https://flaviocopes.com/
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Flavio Copes</title>
+<meta name="description" content="JavaScript and Web Development Tutorials">
+<meta name="author" content="Flavio Copes">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Flavio Copes">
+<meta property="og:description" content="JavaScript and Web Development Tutorials">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flaviocopes.com/">
+  <meta property="og:image" content="https://flaviocopes.com/img/avatar.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="alternate" type="application/rss+xml" title="flaviocopes.com" href="/index.xml">
+<style>
+<!-- code,kbd,pre,samp{font-family:'Inconsolata', monospace}button,hr,input{overflow:visible}img,legend{max-width:100%}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{padding:0;box-sizing:border-box}ol,pre,ul{margin:0 0 20px}.hljs,pre{overflow-x:auto}.hljs,article,aside,blockquote p,details,figcaption,figure,footer,header,img,main,menu,nav,section{display:block}#wrapper:after,.blog-description:after,.clearfix:after,.post-date:after{content:""}.container,.post-stub,sub,sup{position:relative}.book-landing-with-cover img{box-shadow:5px 5px 8px grey}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}h1{margin:.67em 0}h1,h2,h3,h4,h5,h6{margin-bottom:20px}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none;width:auto}.container,table{width:100%}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:'Avenir', monospace;font-size:100%;line-height:1.15;margin:0}.footer,.site-header,textarea{overflow:auto}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;white-space:normal}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}ol,p,ul{line-height:1.7em}summary{display:list-item}[hidden],template{display:none}.hljs{padding:.5em;color:#333;-webkit-text-size-adjust:none}pre,table td{padding:10px}.diff .hljs-header,.hljs-comment{color:#998;font-style:italic}.css .rule .hljs-keyword,.hljs-keyword,.hljs-request,.hljs-status,.hljs-subst,.hljs-winutils,.nginx .hljs-title{color:#333;font-weight:700}.hljs-hexcolor,.hljs-number,.ruby .hljs-constant{color:teal}.hljs-doctag,.hljs-string,.hljs-tag .hljs-value,.tex .hljs-formula{color:#d14}.hljs-id,.hljs-title,.scss .hljs-preprocessor{color:#900;font-weight:700}.hljs-list .hljs-keyword,.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type,.tex .hljs-command,.vhdl .hljs-literal{color:#458;font-weight:700}.django .hljs-tag .hljs-keyword,.hljs-rule .hljs-property,.hljs-tag,.hljs-tag .hljs-title{color:navy;font-weight:400}.hljs-attribute,.hljs-name,.hljs-variable,.lisp .hljs-body{color:teal}.hljs-regexp{color:#009926}.clojure .hljs-keyword,.hljs-prompt,.hljs-symbol,.lisp .hljs-keyword,.ruby .hljs-symbol .hljs-string,.scheme .hljs-keyword,.tex .hljs-special{color:#f03838}.hljs-built_in{color:#0086b3}.hljs-cdata,.hljs-doctype,.hljs-pi,.hljs-pragma,.hljs-preprocessor,.hljs-shebang{color:#999;font-weight:700}h2,h3{padding-top:40px;font-weight:900}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.diff .hljs-change{background:#0086b3}.hljs-chunk{color:#aaa}a,a code{color:#2C2B2B}body,html{height:100%}body{margin:0;background:#fefefe;color:#424242;font-family: 'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;font-size:20px}h1{font-size:35px;}h2{font-size:28px}h3{font-size:26px}h4{font-size:24px;margin-bottom:18px}h5{font-size:16px;margin-bottom:15px}h6{font-size:14px;margin-bottom:12px}p{margin:0 0 30px}a{text-decoration:none;     border-bottom: 1px dotted #2C2B2B;}ol ol,ol ul,ul ol,ul ul{margin:10px 10px 12px 20px}ol li,ul li{margin:0 0 2px}ol li:last-of-type,ul li:last-of-type{margin-bottom:0}blockquote{border-left:1px dotted #2C2B2B;margin:40px 0;padding:5px 30px}blockquote p{color:#aeadad;font-style:italic;margin:0;width:100%}pre{background:#f1f0ea;border:1px solid #dddbcc;border-radius:3px;font-size:16px;margin-bottom:30px!important}pre code{padding: 0;white-space: pre-wrap;}code{padding:2px 4px;font-size:100%;color:#444;background-color:#f1f0ea;border-radius:4px}hr{border:none;border-bottom:1px solid #333;margin:45px 0}.fluid-width-video-wrapper,table{margin-bottom:40px}table tbody>tr:nth-child(odd)>td,table tbody>tr:nth-child(odd)>th{background-color:#f7f7f3}table th{padding:0 10px 10px;text-align:left}.error,.post-header,.site-header{text-align:center}table tr{border-bottom:1px dotted #aeadad}::selection{background:#fff5b8;color:#000;display:block}::-moz-selection{background:#fff5b8;color:#000;display:block}.hidden{text-indent:-9999px;visibility:hidden;display:none}.clearfix:after{display:table;clear:both}.container{margin:0 auto;max-width:889px}#wrapper{height:auto;min-height:100%;margin-bottom:-265px}#wrapper:after{display:block;height:265px}.button{background:#303030;border:none;border-radius:3px;color:#fefefe;font-size:14px;font-weight:700;padding:10px 12px}.button-square,.button:hover{background:#2C2B2B}.button-square{color:#fff;float:left;font-size:17px;margin:0 0 0 10px;padding:3px 8px 4px}.button-square:hover{background:#303030}.comments{margin-top:10px}.site-header{padding:40px 0 0}.site-title-wrapper{display:table;margin:0 
+
+
+
+
+
+
+
+
+
+
+
+div class="et_pb_slide_overlay_container"></div>
+								<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+										<div class="et_pb_slide_description">
+										<h2 class="et_pb_slide_title"><a href="https://thekgmweb.com/which-computer-language-should-i-learn/">Which Computer Language Should I learn</a></h2>
+								<div class="et_pb_slide_content
+										">
+									<p class="post-meta">by <span class="author vcard"><a href="https://thekgmweb.com/author/thekgm/" title="Posts by thekgm" rel="author">thekgm</a></span> | <span class="published">January 29, 2021</span> | <a href="https://thekgmweb.com/category/uncategorized/" rel="category tag">Uncategorized</a> | 0 Comments</p><div>&nbsp; &nbsp;      Those who ask this question usually read Google research on the pages, read dozens of articles, find a few familiar software developers, contact software developers working in the industry and ask this question. Each head may encounter a different...</div>							</div>
+										<div class="et_pb_button_wrapper"><a class="et_pb_button et_pb_more_button" href="https://thekgmweb.com/which-computer-language-should-i-learn/">Read More</a></div>						</div> <!-- .et_pb_slide_description -->
+										</div>
+				</div> <!-- .et_pb_container -->
+			</div> <!-- .et_pb_slide -->
+								<div class="et_pb_slide et_pb_bg_layout_dark et_pb_post_slide-405"  style="background-image: url(https://thekgmweb.com/wp-content/uploads/2021/01/IMG_0605-removebg-preview-e1612409392587.png);">
+										<div class="et_pb_slide_overlay_container"></div>
+								<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+										<div class="et_pb_slide_description">
+										<h2 class="et_pb_slide_title"><a href="https://thekgmweb.com/5-things-i-wish-i-knew-before-i-start-programming/">5 Things I Wish I Knew Before I Start Programming</a></h2>
+								<div class="et_pb_slide_content
+										">
+									<p class="post-meta">by <span class="author vcard"><a href="https://thekgmweb.com/author/thekgm/" title="Posts by thekgm" rel="author">thekgm</a></span> | <span class="published">January 29, 2021</span> | <a href="https://thekgmweb.com/category/uncategorized/" rel="category tag">Uncategorized</a> | 0 Comments</p><div>I will continue to write the 5 things i should have known before starting the programming...It will continue here.Alright , lets start this page with my first question.How could someone read this paragraph right now without an technology ,in other words without...</div>								</div>
+										<div class="et_pb_button_wrapper"><a class="et_pb_button et_pb_more_button" href="https://thekgmweb.com/5-things-i-wish-i-knew-before-i-start-programming/">Read More</a></div>						</div> <!-- .et_pb_slide_description -->
+										</div>
+				</div> <!-- .et_pb_container -->
+			</div> <!-- .et_pb_slide -->
+								<div class="et_pb_slide et_pb_bg_layout_dark et_pb_post_slide-348"  style="background-image: url(https://thekgmweb.com/wp-content/uploads/2021/01/ball-4789466_640-e1611886557731.jpg);">
+										<div class="et_pb_slide_overlay_container"></div>
+								<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+										<div class="et_pb_slide_description">
+										<h2 class="et_pb_slide_title"><a href="https://thekgmweb.com/348-2/">Things you don&#8217;t know about JavaScript</a></h2>
+								<div class="et_pb_slide_content
+										">
+									<p class="post-meta">by <span class="author vcard"><a href="https://thekgmweb.com/author/thekgm/" title="Posts by thekgm" rel="author">thekgm</a></span> | <span class="published">January 28, 2021</span> | <a href="https://thekgmweb.com/category/uncategorized/" rel="category tag">Uncategorized</a> | 0 Comments</p><div>What is JavaScript? Basic JavaScript Guide for BeginnersWhat...It just created in 10 days JavaScript was created by Brandan Eich, a Netscape employee, over a 10-day period in September 1995. It was first called Mocha, and the language was later named Mona and then...</div>							</div>
+										<div class="et_pb_button_wrapper"><a class="et_pb_button et_pb_more_button" href="https://thekgmweb.com/348-2/">Read More</a></div>				</div> <!-- .et_pb_slide_description -->
+										</div>
+				</div> <!-- .et_pb_container -->
+			</div> <!-- .et_pb_slide -->
+				
+				</div> <!-- .et_pb_slides -->
+				
+			</div> <!-- .et_pb_slider -->
+			
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_15 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_24">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_48  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_17 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2>Location</h2>
+<p>&nbsp;</p>
+<p>Canada,Ontario</p>
+<p>Please use contact form to contact with me.Thanks</p>
+<p>&nbsp;</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_49  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_18 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2>Speed up</h2></div>
+			</div> <!-- .et_pb_text --><ul class="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0 clearfix  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				<li
+            class='et_pb_with_border et_pb_social_media_follow_network_0 et_pb_social_icon et_pb_social_network_link  et-social-facebook et_pb_social_media_follow_network_0'><a
+              href='https://www.facebook.com/profile.php?id=100025352197539'
+              class='icon et_pb_with_border'
+              title='Follow on Facebook'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Follow</span></a></li><li
+            class='et_pb_with_border et_pb_social_media_follow_network_1 et_pb_social_icon et_pb_social_network_link  et-social-youtube et_pb_social_media_follow_network_1'><a
+              href='https://www.youtube.com/watch?v=oXMOE07fKv0'
+              class='icon et_pb_with_border'
+              title='Follow on Youtube'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Follow</span></a></li><li
+            class='et_pb_with_border et_pb_social_media_follow_network_2 et_pb_social_icon et_pb_social_network_link  et-social-linkedin et_pb_social_media_follow_network_2'><a
+              href='http://www.linkedin.com/in/fatihkgokmen'
+              class='icon et_pb_with_border'
+              title='Follow on LinkedIn'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Follow</span></a></li><li
+            class='et_pb_with_border et_pb_social_media_follow_network_3 et_pb_social_icon et_pb_social_network_link  et-social-instagram et_pb_social_media_follow_network_3'><a
+              href='https://www.instagram.com/bestie.vic/'
+              class='icon et_pb_with_border'
+              title='Follow on Instagram'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Follow</span></a></li>
+			</ul> <!-- .et_pb_counters -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_50  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_signup_0 et_animated et_pb_newsletter_layout_left_right et_pb_newsletter et_pb_subscribe clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_no_bg">
+				
+				
+				<div class="et_pb_newsletter_description"><h2 class="et_pb_module_header">Subcribe</h2><div>
+<p style="text-align: center;">
+<p>            Subscribe for my latest blog.</p>
+</div></div>
+				
+				<div class="et_pb_newsletter_form">
+					<form method="post">
+						<div class="et_pb_newsletter_result et_pb_newsletter_error"></div>
+						<div class="et_pb_newsletter_result et_pb_newsletter_success">
+							<h2>You have been successfully sign-up..!</h2>
+						</div>
+						<div class="et_pb_newsletter_fields">
+							
+					<p class="et_pb_newsletter_field et_pb_contact_field_last et_pb_contact_field_last_tablet et_pb_contact_field_last_phone">
+						<label class="et_pb_contact_form_label" for="et_pb_signup_firstname" style="display: none;">Name</label>
+						<input id="et_pb_signup_firstname" class="input" type="text" placeholder="Name" name="et_pb_signup_firstname">
+					</p>
+							
+							
+					<p class="et_pb_newsletter_field et_pb_contact_field_last et_pb_contact_field_last_tablet et_pb_contact_field_last_phone">
+						<label class="et_pb_contact_form_label" for="et_pb_signup_email" style="display: none;">Email</label>
+						<input id="et_pb_signup_email" class="input" type="text" placeholder="Email" name="et_pb_signup_email">
+					</p>
+							
+							
+					<p class="et_pb_newsletter_button_wrap">
+						<a class="et_pb_newsletter_button et_pb_button et_pb_custom_button_icon" href="#" data-icon="&#x24;">
+							<span class="et_subscribe_loader"></span>
+							<span class="et_pb_newsletter_button_text">Subscribe</span>
+						</a>
+					</p>
+							
+						</div>
+						
+						<input type="hidden" value="mailchimp" name="et_pb_signup_provider" />
+						<input type="hidden" value="03dac884f0" name="et_pb_signup_list_id" />
+						<input type="hidden" value="undefined|SlavaET" name="et_pb_signup_account_name" />
+						<input type="hidden" value="true" name="et_pb_signup_ip_address" /><input type="hidden" value="b052a2dc417a5291169ec2fd94a69404" name="et_pb_signup_checksum" />
+					</form>
+				</div>
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section -->		</div><!-- .et_builder_inner_content -->
+	</div><!-- .et-l -->
+						</div> <!-- .entry-content -->
+
+				
+				</article> <!-- .et_pb_post -->
+
+			
+
+</div> <!-- #main-content -->
+
+	
+
+	<footer id="main-footer">
+		
+		
+		<div id="footer-bottom">
+			<div class="container clearfix">
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="#" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="#" class="icon">
+			<span>Twitter</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-google-plus">
+		<a href="#" class="icon">
+			<span>Google</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-instagram">
+		<a href="#" class="icon">
+			<span>Instagram</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-rss">
+		<a href="https://thekgmweb.com/feed/" class="icon">
+			<span>RSS</span>
+		</a>
+	</li>
+
+</ul><div id="footer-info">Copy Write TheKGM</div>			</div>	<!-- .container -->
+		</div>
+	</footer> <!-- #main-footer -->
+    </div> <!-- #et-main-area -->
+
+			
+		</div><!-- #et-boc -->
+		</div> <!-- #page-container -->
+
+				<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_fullwidth_header_0","style":"zoom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"-5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_fullwidth_image_0","style":"zoomBottom","repeat":"once","duration":"1400ms","delay":"0ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_0","style":"slideBottom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_1","style":"slideBottom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_2","style":"slideBottom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_5","style":"slideBottom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_6","style":"slideBottom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_7","style":"slideBottom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_8","style":"slideBottom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_image_18","style":"slideLeft","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_10","style":"slideLeft","repeat":"once","duration":"1000ms","delay":"100ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_toggle_6","style":"slideRight","repeat":"once","duration":"1000ms","delay":"200ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_toggle_7","style":"slideRight","repeat":"once","duration":"1000ms","delay":"200ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_toggle_8","style":"slideRight","repeat":"once","duration":"1000ms","delay":"200ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_button_1","style":"slideRight","repeat":"once","duration":"1000ms","delay":"500ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_toggle_9","style":"slideRight","repeat":"once","duration":"1000ms","delay":"200ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_toggle_10","style":"slideRight","repeat":"once","duration":"1000ms","delay":"200ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_toggle_11","style":"slideRight","repeat":"once","duration":"1000ms","delay":"200ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_button_2","style":"slideLeft","repeat":"once","duration":"1000ms","delay":"500ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_image_19","style":"slideRight","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_11","style":"slideLeft","repeat":"once","duration":"1000ms","delay":"100ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_14","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_counters_0","style":"flipLeft","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_counters_1","style":"slideLeft","repeat":"once","duration":"1000ms","delay":"100ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_counters_2","style":"slideLeft","repeat":"once","duration":"1000ms","delay":"100ms","intensity":"5%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_image_20","style":"zoom","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"-10%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_17","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"100%","speed_curve":"ease-in-out"},{"class":"et_pb_text_18","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"100%","speed_curve":"ease-in-out"},{"class":"et_pb_signup_0","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"}];
+					var et_link_options_data = [{"class":"et_pb_column_14","url":"https:\/\/www.elegantthemes.com\/layouts\/","target":"_blank"},{"class":"et_pb_blurb_0","url":"#themes","target":"_self"},{"class":"et_pb_column_15","url":"https:\/\/www.hostgator.com\/","target":"_blank"},{"class":"et_pb_blurb_1","url":"#domain","target":"_blank"},{"class":"et_pb_column_16","url":"https:\/\/negliadesign.com\/general\/website-development-process\/","target":"_blank"},{"class":"et_pb_blurb_2","url":"#publish","target":"_blank"},{"class":"et_pb_blurb_5","url":"http:\/\/thekgmweb.com\/gradvisory\/","target":"_blank"},{"class":"et_pb_blurb_6","url":"https:\/\/github.com\/fatihkgm\/Mobile_Group_Project","target":"_blank"},{"class":"et_pb_blurb_7","url":"https:\/\/github.com\/fatihkgm","target":"_blank"},{"class":"et_pb_blurb_8","url":"https:\/\/github.com\/fatihkgm\/101168654_comp3123_a2","target":"_blank"}];
+			</script>
+	<script type='text/javascript' src='https://thekgmweb.com/wp-content/plugins/popups-for-divi/scripts/front.min.js?ver=2.3.0' id='js-divi-area-js'></script>
+<script type='text/javascript' id='divi-custom-script-js-extra'>
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
+var et_pb_custom = {"ajaxurl":"https:\/\/thekgmweb.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/thekgmweb.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/thekgmweb.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"0b9ca5d4de","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"c1204ff5ef","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"10","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_box_shadow_elements = [];
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+var et_pb_sticky_elements = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thekgmweb.com/wp-content/themes/Divi/js/custom.unified.js?ver=4.8.1' id='divi-custom-script-js'></script>
+<script type='text/javascript' src='https://thekgmweb.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.8.1' id='et-core-common-js'></script>
+<script type='text/javascript' src='https://thekgmweb.com/wp-includes/js/wp-embed.min.js?ver=5.6.2' id='wp-embed-js'></script>
+			<script type="text/javascript" id="uagb-script-frontend">document.addEventListener("DOMContentLoaded", function(){( function( $ ) {  })(jQuery)})</script>
+					
+	</body>
+</html>
+(base) test@iMac ~ % 
+
+
+
+<form method="get">
+ <input name="q" placeholder="HAPPY">
+ <br/>
+ <input type="submit" value="www.youtube.com">www.youtube.com
+</form>
+
+
+<input name="q" placeholder="HAPPY">
+
+
+
+var buttonColors = ["red", "blue", "green", "yellow"];
+var gamePattern=[];
+
+function nextSequence(){
+   var randomNumber = Math.floor(Math.random()*4);
+   var randomChosenColor = buttonColours[randomNumber];
+   gamePattern.push(randomChosenColor);
+}
+
+

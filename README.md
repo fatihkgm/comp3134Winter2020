@@ -1,2 +1,4 @@
 # comp3134Winter2021
-Into to Cyber Security
+👉 Cyber Security
+
+📌 Week to week exercises and lab test

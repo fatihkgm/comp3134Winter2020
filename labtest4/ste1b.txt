@@ -1,0 +1,60 @@
+Last login: Sun Apr  4 11:19:56 on ttys000
+(base) test@iMac ~ % ssh root@159.203.16.249
+root@159.203.16.249's password: 
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-62-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Apr  5 18:19:36 UTC 2021
+
+  System load:  0.4                Users logged in:       0
+  Usage of /:   22.1% of 24.06GB   IPv4 address for eth0: 159.203.16.249
+  Memory usage: 60%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    124
+
+107 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+
+*** System restart required ***
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://159.203.16.249
+
+On the server:
+ * The default web root is located at /var/www/html
+ * The MySQL root password is saved in /root/.digitalocean_password
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Mon Mar 22 18:57:24 2021 from 99.242.65.117
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# cd/var/www/html
+-bash: cd/var/www/html: No such file or directory
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# cd /var/www/html
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# ls
+index.html
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# nano index.html
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# touch labtest_reflected.php
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# ls
+index.html  labtest_reflected.php
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# nano labtest_reflected.php
+
+
+Use "fg" to return to nano.
+
+[1]+  Stopped                 nano labtest_reflected.php
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# 

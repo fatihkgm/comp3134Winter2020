@@ -1,5 +1,5 @@
 # comp3134Winter2021
-<h2 align="center">Introduction to Cyber Security👋</h2>
+<h2 align="center">Cyber Security👋</h2>
 <p align="center"> 📌  DIGITIAL OCEAN , WIRESHARK , DROPLET, PACKETSENDER </p>
 
 ![ban](https://i.ibb.co/f8nkhbX/cyber.png)
